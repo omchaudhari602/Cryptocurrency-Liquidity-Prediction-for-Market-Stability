@@ -1,0 +1,33 @@
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+
+
+"""Based on the imports identified in the provided Python scripts and notebooks, here is the requirements.txt file needed to reproduce the environment for both training and running the application.
+
+requirements.txt
+Plaintext
+
+pandas
+numpy
+scikit-learn
+streamlit
+matplotlib
+seaborn
+
+Dependency Analysis: 
+
+1. pandas: Essential for data manipulation, reading the CoinGecko CSVs, and structuring input data for the model.
+
+2. numpy: Used for numerical operations and array handling within the pipeline.
+
+3. scikit-learn: Provides the RandomForestRegressor algorithm, StandardScaler for data normalization, and metrics for evaluation.
+
+4. streamlit: The framework used to build and run the web application interface.
+
+5. matplotlib & seaborn: Required for generating the visualizations (heatmaps and distributions) found in the analysis notebooks.
+
+Note: Libraries like os, sys, and pickle are part of the Python Standard Library and do not need to be installed separately."""
